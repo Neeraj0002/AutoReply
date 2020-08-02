@@ -103,7 +103,7 @@ class _HomePaageState extends State<HomePaage> {
 
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 10), () {
+    Timer(Duration(minutes: 1), () {
       setState(() {});
     });
 
